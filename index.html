@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bernina Re</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Karla:wght@400;500;700&family=Playfair+Display:wght@700;800;900&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a href="/" class="site-header__brand" aria-label="Bernina Re home">
+          <img src="assets/logo.svg" alt="Bernina Re" />
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="/" aria-current="page">Home</a></li>
+            <li><a href="#our-products">Products</a></li>
+            <li><a href="#our-team">Team</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#contact-us">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero__inner">
+        <img src="assets/logo.svg" alt="Bernina Re" class="hero__logo" />
+        <p class="hero__lede">
+          Bernina Re is a specialist reinsurance and retrocession provider. We
+          offer our clients risk transfer products and solutions underpinned by
+          disciplined and prudent underwriting, superior analytical
+          capabilities, and a culture of professional excellence. Our capital is
+          provided by funds managed by Euler ILS Partners Ltd.<br />Bernina Re
+          is registered in Bermuda and is licensed as a Class 3A reinsurer.
+        </p>
+      </div>
+    </section>
+
+    <section id="our-products" class="section">
+      <div class="container">
+        <h2 class="section__heading">Products</h2>
+        <div class="products">
+          <article
+            class="product-card"
+            style="background-image: url('assets/property.jpg')"
+          >
+            <div class="product-card__body">
+              <h3 class="product-card__title">Property</h3>
+              <p class="product-card__desc">
+                Significant capacity for Cat XL, Risk XL and proportional
+                treaty
+              </p>
+            </div>
+          </article>
+          <article
+            class="product-card"
+            style="background-image: url('assets/specialty.jpg')"
+          >
+            <div class="product-card__body">
+              <h3 class="product-card__title">Speciality</h3>
+              <p class="product-card__desc">
+                Marine, Engineering, Energy, Space, Aviation, Agriculture
+              </p>
+            </div>
+          </article>
+          <article
+            class="product-card"
+            style="background-image: url('assets/man.jpg')"
+          >
+            <div class="product-card__body">
+              <h3 class="product-card__title">Man made risk</h3>
+              <p class="product-card__desc">Capacity for man made risk</p>
+            </div>
+          </article>
+          <article
+            class="product-card"
+            style="background-image: url('assets/cyber.jpg')"
+          >
+            <div class="product-card__body">
+              <h3 class="product-card__title">Other</h3>
+              <p class="product-card__desc">Other classes such as Lottery</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-team" class="section section--dark">
+      <div class="container">
+        <h2 class="section__heading section__heading--on-dark">Team</h2>
+        <div class="team">
+          <article class="team-card team-card--vacant">
+            <div
+              class="team-card__photo team-card__photo--placeholder"
+              role="img"
+              aria-label="Chief Executive Officer — position vacant"
+            ></div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">To be announced</h3>
+              <p class="team-card__role">Chief Executive Officer</p>
+              <p class="team-card__location">Hamilton, Bermuda</p>
+              <a
+                href="#"
+                class="team-card__email js-email"
+                data-u="info"
+                data-d="berninare.com"
+                >email</a
+              >
+            </div>
+          </article>
+          <article class="team-card">
+            <div
+              class="team-card__photo"
+              style="background-image: url('assets/will_haddrell.webp')"
+              role="img"
+              aria-label="Will Haddrell"
+            ></div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Will Haddrell</h3>
+              <p class="team-card__role">
+                Chief Underwriting Officer
+              </p>
+              <p class="team-card__location">Hamilton, Bermuda</p>
+              <a
+                href="#"
+                class="team-card__email js-email"
+                data-u="will.haddrell"
+                data-d="berninare.com"
+                >email</a
+              >
+            </div>
+          </article>
+          <article class="team-card">
+            <div
+              class="team-card__photo"
+              style="
+                background-image: url('assets/mili_biswas.jpg');
+                background-size: 165%;
+                background-position: 50% 15%;
+              "
+              role="img"
+              aria-label="Mili Biswas"
+            ></div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Mili Biswas</h3>
+              <p class="team-card__role">Head of Zurich Branch</p>
+              <p class="team-card__location">Zurich, Switzerland</p>
+              <a
+                href="#"
+                class="team-card__email js-email"
+                data-u="mili.biswas"
+                data-d="berninare.com"
+                >email</a
+              >
+            </div>
+          </article>
+          <article class="team-card">
+            <div
+              class="team-card__photo"
+              style="
+                background-image: url('assets/daniel_gutzwiller.jpg');
+                background-size: 165%;
+                background-position: 50% 15%;
+              "
+              role="img"
+              aria-label="Daniel Gutzwiller"
+            ></div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Daniel Gutzwiller</h3>
+              <p class="team-card__role">
+                Senior Technical Accounting Manager
+              </p>
+              <p class="team-card__location">Zurich, Switzerland</p>
+              <a
+                href="#"
+                class="team-card__email js-email"
+                data-u="daniel.gutzwiller"
+                data-d="berninare.com"
+                >email</a
+              >
+            </div>
+          </article>
+          <article class="team-card">
+            <div
+              class="team-card__photo"
+              style="
+                background-image: url('assets/albert_kan.jpg');
+                background-size: 165%;
+                background-position: 50% 15%;
+              "
+              role="img"
+              aria-label="Albert Kan"
+            ></div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Albert Kan</h3>
+              <p class="team-card__role">Head of Business Technology</p>
+              <p class="team-card__location">Zurich, Switzerland</p>
+              <a
+                href="#"
+                class="team-card__email js-email"
+                data-u="albert.kan"
+                data-d="berninare.com"
+                >email</a
+              >
+            </div>
+          </article>
+          <article class="team-card">
+            <div
+              class="team-card__photo"
+              style="
+                background-image: url('assets/luca_naterop.jpg');
+                background-size: 165%;
+                background-position: 50% 5%;
+              "
+              role="img"
+              aria-label="Luca Naterop"
+            ></div>
+            <div class="team-card__body">
+              <h3 class="team-card__name">Luca Naterop</h3>
+              <p class="team-card__role">Catastrophe Modeler</p>
+              <p class="team-card__location">Zurich, Switzerland</p>
+              <a
+                href="#"
+                class="team-card__email js-email"
+                data-u="luca.naterop"
+                data-d="berninare.com"
+                >email</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-us" class="section">
+      <div class="container">
+        <h2 class="section__heading">About us</h2>
+        <div class="prose">
+          <p>
+            Bernina Re was launched in 2017 as a Solvency II equivalent Class 3A
+            reinsurer. It was established as a transformer to underwrite
+            traditional reinsurance business for the exclusive benefit of funds
+            managed by Euler ILS Partners Ltd., on a fully collateralized basis.
+          </p>
+          <p>
+            In 2019 Bernina Re achieved its development into a fully staffed
+            reinsurer, sourcing and underwriting reinsurance business via its
+            head office in Bermuda as well as its branch office in Switzerland.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="hub">
+      <div class="container hub__inner">
+        <div class="hub__text">
+          <h2 class="hub__heading">
+            Established in<br />a leading reinsurance hub
+          </h2>
+          <p class="hub__paragraph">
+            Bernina Re is headquartered in Bermuda, which has long been a
+            well-known and highly respected global hub for insurance capacity.
+            In particular, reinsurance has been one of the fastest growing
+            sectors in recent years. As one of the top three reinsurance centers
+            in the world, Bermuda is best known for its market-leading position
+            in the property-catastrophe reinsurance sector. Bermuda has made a
+            lot of effort over the last decade to achieve and maintain Solvency
+            II equivalence. It is one of only two jurisdictions worldwide, along
+            with Switzerland, to have this distinction.
+          </p>
+        </div>
+        <div class="hub__badges">
+          <div class="hub__badge">Solvency II-equivalent</div>
+          <div class="hub__badge">Top 3 reinsurance center</div>
+          <div class="hub__badge">Headquartered in Bermuda</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-us" class="section">
+      <div class="container">
+        <h2 class="section__heading">Contact us</h2>
+        <div class="contacts">
+          <article class="contact-card">
+            <iframe
+              class="contact-card__map"
+              title="Hamilton office map"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://maps.google.com/maps?q=Bernina+Re+Hamilton+Bermuda&hl=en&z=16&output=embed"
+            ></iframe>
+            <div class="contact-card__body">
+<h3 class="contact-card__title">Hamilton, Bermuda</h3>
+              <address class="contact-card__address">
+                Park Place<br />
+                55 Par-la-Ville Road<br />
+                Hamilton HM11
+              </address>
+              <ul class="contact-card__links">
+                <li><a href="tel:+14415428600">+1 441 542 8600</a></li>
+                <li><a href="#" class="js-email" data-u="info" data-d="berninare.com">email</a></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="contact-card">
+            <iframe
+              class="contact-card__map"
+              title="Zurich office map"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://maps.google.com/maps?q=Bernina+Re+Zurich&hl=en&z=16&output=embed"
+            ></iframe>
+            <div class="contact-card__body">
+<h3 class="contact-card__title">Zurich, Switzerland</h3>
+              <address class="contact-card__address">
+                Tödistrasse 63<br />
+                8002 Zurich
+              </address>
+              <ul class="contact-card__links">
+                <li><a href="tel:+41442443232">+41 44 244 32 32</a></li>
+                <li><a href="#" class="js-email" data-u="info" data-d="berninare.com">email</a></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <a href="/" class="site-footer__brand" aria-label="Bernina Re home">
+          <img src="assets/logo.svg" alt="Bernina Re" />
+        </a>
+        <p class="site-footer__copyright">
+          Copyright © <span id="copyright-year">2026</span> Bernina Re Ltd. &mdash; All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.querySelectorAll('.js-email').forEach(function (a) {
+        var e = a.dataset.u + '\u0040' + a.dataset.d;
+        a.href = 'mailto:' + e;
+        a.textContent = e;
+      });
+      document.getElementById('copyright-year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
