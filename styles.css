@@ -33,6 +33,7 @@ body {
   padding: 0 24px;
 }
 
+
 /* --- Header --- */
 
 .site-header {
@@ -254,6 +255,26 @@ body {
   color: var(--midnight);
 }
 
+.contacts__linkedin {
+  text-align: center;
+  margin: 32px 0 0;
+  grid-column: 1 / -1;
+}
+
+.contacts__linkedin a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--midnight);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.contacts__linkedin a:hover {
+  color: var(--gold);
+}
+
 @media (max-width: 680px) {
   .contacts {
     grid-template-columns: 1fr;
@@ -385,11 +406,16 @@ body {
 }
 
 .team {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
   max-width: 780px;
   margin: 0 auto;
+}
+
+.team-card {
+  width: calc((780px - 2 * 24px) / 3);
 }
 
 .team-card {

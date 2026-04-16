@@ -1,4 +1,12 @@
 
+
+## Run locally
+
+Open `index.html` in your browser or run the following 
+```bash
+python3 -m http.server 8000
+```
+
 ## Deployment
 
 1. Go to Azure Portal
