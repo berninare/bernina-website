@@ -9,9 +9,11 @@ python3 -m http.server 8000
 
 ## Deployment
 
-1. Go to Azure Portal
-2. Go to berninawebsite Storage Account 
-3. Select Containers -> $web
-4. Upload the files
+Push code to DevOps
 
-Then check Data Management -> Static website for the URL. Should be https://berninawebsite.z6.web.core.windows.net/. 
+```git push origin master```
+
+Push code to GitHub (to deploy site) at https://github.com/berninare/bernina-website
+
+```git push github master```
+
