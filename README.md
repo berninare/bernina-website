@@ -17,3 +17,4 @@ Push code to GitHub (to deploy site) at https://github.com/berninare/bernina-web
 
 ```git push github master```
 
+We're using GitHub pages on master branch deployed to our github repo. 
