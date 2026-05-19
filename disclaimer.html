@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Disclaimer &mdash; Bernina Re</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Karla:wght@400;500;700&family=Playfair+Display:wght@700;800;900&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .disclaimer-hero {
+        background-color: var(--midnight);
+        background-image: linear-gradient(rgba(33, 57, 72, 0.6), rgba(33, 57, 72, 0.8)),
+          url("assets/banner-bg.jpg");
+        background-position: 50% 40%;
+        background-size: cover;
+        color: #fff;
+        padding: 120px 0 64px;
+      }
+      .disclaimer-hero h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: clamp(2rem, 5vw, 3.5rem);
+        font-weight: 700;
+        margin: 0;
+      }
+      .disclaimer-body {
+        padding: 64px 0 96px;
+      }
+      .disclaimer-body h2 {
+        font-family: 'DM Serif Text', serif;
+        font-size: 1.25rem;
+        color: var(--midnight);
+        margin: 2.5rem 0 0.5rem;
+      }
+      .disclaimer-body h2:first-child {
+        margin-top: 0;
+      }
+      .disclaimer-body p {
+        color: #444;
+        line-height: 1.75;
+        margin: 0 0 1rem;
+        max-width: 72ch;
+      }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4em;
+        color: var(--midnight);
+        font-weight: 600;
+        text-decoration: none;
+        margin-bottom: 2rem;
+        opacity: 0.7;
+        transition: opacity 0.2s;
+      }
+      .back-link:hover { opacity: 1; }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a href="/" class="site-header__brand" aria-label="Bernina Re home">
+          <img src="assets/logo_dark.svg" alt="Bernina Re" />
+        </a>
+      </div>
+    </header>
+
+    <section class="disclaimer-hero">
+      <div class="container">
+        <h1>Disclaimer</h1>
+      </div>
+    </section>
+
+    <section class="disclaimer-body">
+      <div class="container">
+        <a href="/" class="back-link">&#8249; Back to home</a>
+
+        <h2>General</h2>
+        <p>The information contained on this website does not constitute an offer or solicitation to provide reinsurance or any other product or service in any jurisdiction. Nothing on this website constitutes investment, legal, tax, regulatory, or actuarial advice. Bernina Re makes no representation that the content of this website is appropriate or available for use in any particular jurisdiction.</p>
+
+        <h2>No warranties</h2>
+        <p>While Bernina Re endeavours to keep the information on this website accurate and up to date, it makes no representations or warranties, express or implied, as to the accuracy, completeness, or fitness for a particular purpose of any information contained herein. All content is provided on an &ldquo;as is&rdquo; basis. Bernina Re reserves the right to modify or remove content at any time without notice.</p>
+
+        <h2>Limitation of liability</h2>
+        <p>To the fullest extent permitted by applicable law, Bernina Re shall not be liable for any direct, indirect, incidental, consequential, or special damages arising out of or in connection with your use of, or inability to use, this website or any information contained on it.</p>
+
+        <h2>Third-party links</h2>
+        <p>This website may contain links to third-party websites. These links are provided for convenience only. Bernina Re has no control over, and accepts no responsibility for, the content of any linked website.</p>
+
+        <h2>Regulatory status</h2>
+        <p>Bernina Re Ltd. is incorporated in Bermuda and licensed by the Bermuda Monetary Authority as a Class 3A reinsurer. Bernina Re is not licensed or authorised to conduct insurance or reinsurance business in the United States, and nothing on this website constitutes a solicitation or offer directed at US persons or entities.</p>
+
+        <h2>Intellectual property</h2>
+        <p>All content on this website, including text, graphics, logos, and images, is the property of Bernina Re Ltd. and is protected by applicable intellectual property laws. Reproduction or distribution without prior written consent is prohibited.</p>
+
+        <h2>Governing law</h2>
+        <p>This disclaimer is governed by the laws of Bermuda. Any disputes arising in connection with this website shall be subject to the exclusive jurisdiction of the courts of Bermuda.</p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <a href="/" class="site-footer__brand" aria-label="Bernina Re home">
+          <img src="assets/logo.svg" alt="Bernina Re" />
+        </a>
+        <p class="site-footer__copyright">
+          Copyright &copy; <span id="copyright-year"></span> Bernina Re Ltd. &mdash; All Rights Reserved
+          &nbsp;&middot;&nbsp;
+          <a href="/disclaimer.html" style="color:inherit;opacity:0.7;text-decoration:underline;">Disclaimer</a>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('copyright-year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
